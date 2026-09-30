@@ -4,8 +4,8 @@ title: people
 permalink: /people/
 nav: true
 nav_order: 1
-# Group photo: upload it as assets/img/group-photo.jpg (it appears automatically once uploaded)
-group_photo: /assets/img/group-photo.jpg
+# Group photo: upload it as assets/img/group-photo.jpeg (it appears automatically once uploaded)
+group_photo: /assets/img/group-photo.jpeg
 group_photo_caption: The Stanford Nephrology Biostatistics Core team
 ---
 
