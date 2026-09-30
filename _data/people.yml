@@ -1,0 +1,77 @@
+# Add, remove or reorder team members here. Photos live in assets/img/people/.
+- name: Maria Montez Rath, PhD
+  photo: maria-montez-rath.jpg
+  titles: [Senior Research Engineer, "Director, Biostatistics Core"]
+  email: mmrath@stanford.edu
+  expertise:
+    - Generalizability & Transportability of Clinical Trials
+    - Causal Inference
+    - Target Trial Emulation
+    - Survival Analysis
+    - Missing Data
+    - Design of Epidemiological Studies
+
+- name: Margaret R Stedman, PhD
+  photo: margaret-stedman.jpg
+  titles: [Senior Research Engineer, "Associate Director of Biostatistics: Transplant"]
+  email: mstedman@stanford.edu
+  expertise:
+    - Developing Statistical Methods
+    - Survival Analysis
+    - Surveillance Methods
+    - Epidemiology Methods
+    - Clinical Trials
+    - Clustered Designs
+
+- name: Sai Liu
+  photo: sai-liu.jpg
+  titles: ["Lead Biostatistician: USRDS"]
+  email: sailiu@stanford.edu
+  expertise:
+    - USRDS
+    - Survival Analysis
+    - Missing Data
+    - SAS & Stata Programming
+
+- name: Jinn Thomas
+  photo: jinn-thomas.jpg
+  titles: ["Lead Biostatistician: VA"]
+  email: i-chun.thomas@va.gov
+  expertise:
+    - Large Data Sets of Claims
+    - Electronic Health Records
+    - Statistical Programming
+    - Data Analysis
+    - Data Management
+
+- name: Snow Yu
+  photo: snow-yu.jpg
+  titles: [Biostatistician]
+  email: xueyu@stanford.edu
+  expertise:
+    - Hypothesis Testing
+    - Data Visualization
+    - Machine Learning
+    - Power and Sample Size Calculation
+    - Advanced R / SAS / SQL Programming
+
+- name: Mengjiao Huang, PhD
+  photo: mengjiao-huang.jpg
+  titles: [Research Data Analyst]
+  email: mengjiao.huang@va.gov
+  expertise:
+    - Epidemiologic Study of Air Pollution
+    - Transportability & Generalizability Study
+    - Causal Inference
+    - Simulation Study
+    - R / SAS Programming
+
+- name: Gomathy Parvathinathan
+  photo: gomathy-parvathinathan.jpg
+  titles: [Biostatistician]
+  email: gomathyp@stanford.edu
+  expertise:
+    - Survival Analysis
+    - Statistical Programming
+    - Missing Data
+    - Data Analysis

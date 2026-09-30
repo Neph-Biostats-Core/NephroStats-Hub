@@ -1,14 +1,9 @@
+# Shown on the "code" page (_pages/repositories.md).
+# Add the Core's GitHub account(s) and the repositories you want to showcase.
 github_users:
-  - torvalds
-  - alshedivat
+  - Neph-Biostats-Core
 
 repo_description_lines_max: 2
 
-github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+# github_repos:
+#   - Neph-Biostats-Core/your-repo-name

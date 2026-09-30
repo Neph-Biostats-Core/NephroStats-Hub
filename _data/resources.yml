@@ -1,0 +1,12 @@
+- name: "Biostats4You: Statistical resources for non-statisticians"
+  url: https://biostats4you.umn.edu/
+  description: >-
+    Carefully selected, freely available biostatistics training materials for medical
+    and public health professionals — vetted articles, websites and videos suited for a
+    non-statistician audience.
+- name: UCLA Institute for Digital Research and Education (OARC Stats)
+  url: https://stats.oarc.ucla.edu/
+  description: >-
+    Guides for conducting statistical analyses in SAS, R and Stata, with
+    <a href="https://stats.oarc.ucla.edu/sas/dae/logit-regression/">worked examples</a>
+    that use a motivating data set, provide analysis code, and walk through interpreting the output.
