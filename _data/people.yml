@@ -39,7 +39,7 @@
 
 - slug: sai-liu
   name: Sai Liu
-  group: lead
+  group: biostatisticians
   photo: sai-liu.jpg
   titles: ["Lead Biostatistician: USRDS"]
   email: sailiu@stanford.edu
@@ -54,7 +54,7 @@
 
 - slug: jinn-thomas
   name: Jinn Thomas
-  group: lead
+  group: biostatisticians
   photo: jinn-thomas.jpg
   titles: ["Lead Biostatistician: VA"]
   email: i-chun.thomas@va.gov
@@ -70,7 +70,7 @@
 
 - slug: snow-yu
   name: Snow Yu
-  group: staff
+  group: biostatisticians
   photo: snow-yu.jpg
   titles: [Biostatistician]
   email: xueyu@stanford.edu
@@ -86,7 +86,7 @@
 
 - slug: mengjiao-huang
   name: Mengjiao Huang, PhD
-  group: staff
+  group: biostatisticians
   photo: mengjiao-huang.jpg
   titles: [Research Data Analyst]
   email: mengjiao.huang@va.gov
@@ -102,7 +102,7 @@
 
 - slug: gomathy-parvathinathan
   name: Gomathy Parvathinathan
-  group: staff
+  group: biostatisticians
   photo: gomathy-parvathinathan.jpg
   titles: [Biostatistician]
   email: gomathyp@stanford.edu

@@ -1,0 +1,5 @@
+# "Message from the Director" on the People page.
+# person: slug from people.yml (used for name, title and photo)
+# message: paragraphs separated by a blank line. Leave empty to hide the section.
+person: maria-montez-rath
+message:
