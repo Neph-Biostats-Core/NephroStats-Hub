@@ -2,12 +2,23 @@
 layout: page
 title: people
 permalink: /people/
-description: Our team brings expertise in causal inference, survival analysis, trial design, large administrative data (USRDS, VA, claims, EHR) and statistical programming. Click a name to read more.
 nav: true
 nav_order: 1
+# Group photo: upload it as assets/img/group-photo.jpg (it appears automatically once uploaded)
+group_photo: /assets/img/group-photo.jpg
+group_photo_caption: The Stanford Nephrology Biostatistics Core team
 ---
 
 <style>
+.group-photo { margin: 0 0 2.5rem; }
+.group-photo img { width: 100%; border-radius: 8px; display: block; }
+.group-photo figcaption { text-align: center; font-size: .9rem; color: var(--global-text-color-light); margin-top: .5rem; }
+.director { display: flex; gap: 1.75rem; align-items: flex-start; flex-wrap: wrap; background: var(--global-code-bg-color, rgba(0,0,0,.03)); border-left: 4px solid var(--global-theme-color); border-radius: 6px; padding: 1.5rem; margin-bottom: 2.5rem; }
+.director img { width: 150px; aspect-ratio: 1 / 1; object-fit: cover; object-position: top; border-radius: 50%; }
+.director .msg { flex: 1; min-width: 260px; }
+.director h2 { margin-top: 0; font-size: 1.5rem; }
+.director .sig { margin-top: 1rem; font-weight: 600; }
+.director .sig span { display: block; font-weight: 400; font-style: italic; color: var(--global-text-color-light); }
 .team-section { margin-top: 2rem; }
 .team-section h2 { font-size: 1.5rem; border-bottom: 2px solid var(--global-theme-color); padding-bottom: .35rem; margin-bottom: 1.25rem; }
 .team-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1.75rem 1.5rem; }
@@ -17,6 +28,27 @@ nav_order: 1
 .team-member .name { font-weight: 600; margin: .75rem 0 .15rem; color: var(--global-theme-color); }
 .team-member .title { font-size: .85rem; color: var(--global-text-color-light); margin: 0; line-height: 1.35; }
 </style>
+
+{%- assign gp = site.static_files | where: "path", page.group_photo | first -%}
+{%- if gp -%}
+<figure class="group-photo">
+<img src="{{ page.group_photo | relative_url }}" alt="{{ page.group_photo_caption }}">
+<figcaption>{{ page.group_photo_caption }}</figcaption>
+</figure>
+{%- endif -%}
+
+{%- assign dm = site.data.director_message -%}
+{%- if dm.message -%}
+{%- assign d = site.data.people | where: "slug", dm.person | first -%}
+<section class="director">
+<img src="{{ '/assets/img/people/' | append: d.photo | relative_url }}" alt="{{ d.name }}">
+<div class="msg">
+<h2>Message from the Director</h2>
+{{ dm.message | markdownify }}
+<p class="sig">{{ d.name }}{%- for t in d.titles -%}<span>{{ t }}</span>{%- endfor -%}</p>
+</div>
+</section>
+{%- endif -%}
 
 {%- for g in site.data.people_groups -%}
 {%- assign members = site.data.people | where: "group", g.id -%}
