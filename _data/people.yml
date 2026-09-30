@@ -10,7 +10,7 @@
   titles: [Senior Research Engineer, "Director, Biostatistics Core"]
   email: mmrath@stanford.edu
   profile_url:
-  scholar_url:
+  scholar_url: https://scholar.google.com/citations?user=MrDd1QYAAAAJ
   bio:
   expertise:
     - Generalizability & Transportability of Clinical Trials
@@ -44,7 +44,7 @@
   titles: ["Lead Biostatistician: USRDS"]
   email: sailiu@stanford.edu
   profile_url:
-  scholar_url:
+  scholar_url: https://scholar.google.com/citations?user=JbTubGoAAAAJ
   bio:
   expertise:
     - USRDS
@@ -75,7 +75,7 @@
   titles: [Biostatistician]
   email: xueyu@stanford.edu
   profile_url:
-  scholar_url:
+  scholar_url: https://scholar.google.com/citations?user=-yFgrd8AAAAJ
   bio:
   expertise:
     - Hypothesis Testing
@@ -107,7 +107,7 @@
   titles: [Biostatistician]
   email: gomathyp@stanford.edu
   profile_url:
-  scholar_url:
+  scholar_url: https://scholar.google.com/citations?user=ktGKFl8AAAAJ
   bio:
   expertise:
     - Survival Analysis
