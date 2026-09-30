@@ -8,10 +8,6 @@ profile:
   align: right
   image: biostats-logo.png
   image_circular: false
-  more_info: >
-    <p>Biostatistics Core</p>
-    <p>Division of Nephrology</p>
-    <p>Stanford School of Medicine</p>
 
 selected_papers: true # shows papers marked `selected={true}` in _bibliography/papers.bib
 social: false
