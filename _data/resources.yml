@@ -1,12 +1,32 @@
-- name: "Biostats4You: Statistical resources for non-statisticians"
-  url: https://biostats4you.umn.edu/
-  description: >-
-    Carefully selected, freely available biostatistics training materials for medical
-    and public health professionals, including vetted articles, websites and videos suited for a
-    non-statistician audience.
-- name: UCLA Institute for Digital Research and Education (OARC Stats)
-  url: https://stats.oarc.ucla.edu/
-  description: >-
-    Guides for conducting statistical analyses in SAS, R and Stata, with
-    <a href="https://stats.oarc.ucla.edu/sas/dae/logit-regression/">worked examples</a>
-    that use a motivating data set, provide analysis code, and walk through interpreting the output.
+# Resources page. Two lists:
+#   public   -> open to everyone
+#   internal -> links to content that needs a Stanford (SUNet) login, e.g. Box, SharePoint, Smartsheet.
+#              The link itself is visible on the public site; only the content is protected.
+
+public:
+  - name: Project/Grant Support Request Form
+    url: https://app.smartsheet.com/b/form/d0f03b04d36644b2a29ab9cb04196bc6
+    description: Request statistical support for a new project, grant or manuscript.
+  - name: "Biostats4You: Statistical resources for non-statisticians"
+    url: https://biostats4you.umn.edu/
+    description: >-
+      Carefully selected, freely available biostatistics training materials for medical
+      and public health professionals, including vetted articles, websites and videos suited for a
+      non-statistician audience.
+  - name: UCLA Institute for Digital Research and Education (OARC Stats)
+    url: https://stats.oarc.ucla.edu/
+    description: >-
+      Guides for conducting statistical analyses in SAS, R and Stata, with
+      <a href="https://stats.oarc.ucla.edu/sas/dae/logit-regression/">worked examples</a>
+      that use a motivating data set, provide analysis code, and walk through interpreting the output.
+
+internal:
+  - name: Protocol Template
+    url: https://stanfordmedicine.box.com/s/80e6wwj046f0wtsz35fry0jxevnzzdjj
+    description: Statistical analysis protocol template (Stanford Medicine Box).
+  - name: Office hours sign-up
+    url: https://app.smartsheet.com/b/publish?EQBCT=a6704b5781cb4c9a86878cdfbbb672d4
+    description: Upcoming office hours; sign up to receive the Zoom link.
+  - name: KCR conference schedule
+    url: https://app.smartsheet.com/b/publish?EQBCT=c63a683f18f54271b453814d672551b0
+    description: FY26–FY27 Kidney Clinical Research conference schedule.

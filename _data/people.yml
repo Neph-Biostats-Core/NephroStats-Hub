@@ -1,8 +1,17 @@
-# Add, remove or reorder team members here. Photos live in assets/img/people/.
-- name: Maria Montez Rath, PhD
+# Team members. Each person gets a profile page at /people/<slug>/
+# (the page file is _pages/people_<slug>.md). Photos live in assets/img/people/.
+# group: which section they appear under on the People page (see _data/people_groups.yml)
+# bio: a short paragraph for the profile page. profile_url / scholar_url are optional.
+
+- slug: maria-montez-rath
+  name: Maria Montez Rath, PhD
+  group: leadership
   photo: maria-montez-rath.jpg
   titles: [Senior Research Engineer, "Director, Biostatistics Core"]
   email: mmrath@stanford.edu
+  profile_url:
+  scholar_url:
+  bio:
   expertise:
     - Generalizability & Transportability of Clinical Trials
     - Causal Inference
@@ -11,10 +20,15 @@
     - Missing Data
     - Design of Epidemiological Studies
 
-- name: Margaret R Stedman, PhD
+- slug: margaret-stedman
+  name: Margaret R Stedman, PhD
+  group: leadership
   photo: margaret-stedman.jpg
   titles: [Senior Research Engineer, "Associate Director of Biostatistics: Transplant"]
   email: mstedman@stanford.edu
+  profile_url: https://profiles.stanford.edu/margaret-stedman
+  scholar_url: https://scholar.google.com/citations?user=dkZJkMoAAAAJ
+  bio:
   expertise:
     - Developing Statistical Methods
     - Survival Analysis
@@ -23,20 +37,30 @@
     - Clinical Trials
     - Clustered Designs
 
-- name: Sai Liu
+- slug: sai-liu
+  name: Sai Liu
+  group: lead
   photo: sai-liu.jpg
   titles: ["Lead Biostatistician: USRDS"]
   email: sailiu@stanford.edu
+  profile_url:
+  scholar_url:
+  bio:
   expertise:
     - USRDS
     - Survival Analysis
     - Missing Data
     - SAS & Stata Programming
 
-- name: Jinn Thomas
+- slug: jinn-thomas
+  name: Jinn Thomas
+  group: lead
   photo: jinn-thomas.jpg
   titles: ["Lead Biostatistician: VA"]
   email: i-chun.thomas@va.gov
+  profile_url:
+  scholar_url:
+  bio:
   expertise:
     - Large Data Sets of Claims
     - Electronic Health Records
@@ -44,10 +68,15 @@
     - Data Analysis
     - Data Management
 
-- name: Snow Yu
+- slug: snow-yu
+  name: Snow Yu
+  group: staff
   photo: snow-yu.jpg
   titles: [Biostatistician]
   email: xueyu@stanford.edu
+  profile_url:
+  scholar_url:
+  bio:
   expertise:
     - Hypothesis Testing
     - Data Visualization
@@ -55,10 +84,15 @@
     - Power and Sample Size Calculation
     - Advanced R / SAS / SQL Programming
 
-- name: Mengjiao Huang, PhD
+- slug: mengjiao-huang
+  name: Mengjiao Huang, PhD
+  group: staff
   photo: mengjiao-huang.jpg
   titles: [Research Data Analyst]
   email: mengjiao.huang@va.gov
+  profile_url:
+  scholar_url:
+  bio:
   expertise:
     - Epidemiologic Study of Air Pollution
     - Transportability & Generalizability Study
@@ -66,10 +100,15 @@
     - Simulation Study
     - R / SAS Programming
 
-- name: Gomathy Parvathinathan
+- slug: gomathy-parvathinathan
+  name: Gomathy Parvathinathan
+  group: staff
   photo: gomathy-parvathinathan.jpg
   titles: [Biostatistician]
   email: gomathyp@stanford.edu
+  profile_url:
+  scholar_url:
+  bio:
   expertise:
     - Survival Analysis
     - Statistical Programming

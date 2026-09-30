@@ -1,0 +1,7 @@
+# Sections on the People page, in display order. `id` matches `group` in people.yml.
+- id: leadership
+  title: Leadership
+- id: lead
+  title: Lead Biostatisticians
+- id: staff
+  title: Biostatisticians & Data Analysts
