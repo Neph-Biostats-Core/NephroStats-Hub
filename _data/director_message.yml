@@ -1,5 +1,9 @@
 # "Message from the Director" on the People page.
 # person: slug from people.yml (used for name, title and photo)
 # message: paragraphs separated by a blank line. Leave empty to hide the section.
+# NOTE: current text is a draft for testing (marked draft_test). Replace with Maria's approved message.
 person: maria-montez-rath
-message:
+message: |
+  **[draft_test]**
+
+  Welcome to the Stanford Nephrology Biostatistics Core. Our team works alongside faculty and fellows of the Division of Nephrology at every stage of kidney research, from study design and grant writing to analysis and publication. We bring expertise in causal inference, target trial emulation, survival analysis and large national data sources such as USRDS and the VA, and we are committed to rigorous, reproducible science that improves the lives of people with kidney disease. Whether you have a quick question or are planning a multi-year project, we look forward to working with you.
