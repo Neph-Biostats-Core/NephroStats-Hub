@@ -11,7 +11,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Biostatistics Core of the Stanford Division of Nephrology: statistical collaboration for the design, conduct, analysis and publication of kidney-related research.
 footer_text: >
-  © Stanford Nephrology Biostatistics Core, Division of Nephrology, Stanford University School of Medicine.
+  Division of Nephrology, Stanford University School of Medicine.
   Built with <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a>, hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: biostatistics, nephrology, kidney research, Stanford, statistical consulting
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
