@@ -26,12 +26,13 @@ latest_posts:
 .hero::before { width: 420px; height: 420px; right: -120px; top: -160px; background: radial-gradient(circle, rgba(255,255,255,.10) 0%, rgba(255,255,255,0) 70%); }
 .hero::after { width: 260px; height: 260px; left: -90px; bottom: -130px; border: 1px solid rgba(255,255,255,.12); }
 .hero > * { position: relative; z-index: 1; }
-.hero .text { flex: 1 1 380px; }
+.hero .text { flex: 1 1 100%; max-width: 40rem; }
 .hero .eyebrow { display: inline-block; text-transform: uppercase; letter-spacing: .14em; font-size: .72rem; font-weight: 600; color: rgba(255,255,255,.9) !important; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.25); border-radius: 999px; padding: .3rem .8rem; margin: 0 0 1rem; }
 .hero h1 { color: #fff !important; font-size: 2.4rem; line-height: 1.12; margin: 0 0 .9rem; font-weight: 700; letter-spacing: -.01em; }
 .hero p.lead { color: rgba(255,255,255,.9) !important; font-size: 1.05rem; line-height: 1.55; margin: 0 0 1.75rem; max-width: 33rem; }
-.hero .logo { flex: 0 1 270px; display: flex; align-items: center; justify-content: center; padding-left: 2.25rem; border-left: 1px solid rgba(255,255,255,.3); min-height: 120px; }
-.hero .logo img { width: 100%; max-width: 260px; filter: brightness(0) invert(1); opacity: .95; }
+.brand-bar { margin: .25rem 0 1.25rem; }
+.brand-bar img { height: 64px; width: auto; max-width: 100%; display: block; }
+html[data-theme="dark"] .brand-bar img { filter: brightness(0) invert(1); opacity: .9; }
 .btn-hero { display: inline-block; padding: .7rem 1.35rem; border-radius: 8px; font-weight: 600; font-size: .95rem; text-decoration: none !important; margin: 0 .6rem .6rem 0; transition: transform .15s, box-shadow .15s, background .15s; }
 .btn-hero:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,.25); }
 .btn-hero.primary { background: #fff; color: #8C1515 !important; }
@@ -48,9 +49,11 @@ latest_posts:
 .service p { font-size: .93rem; margin: 0 0 .9rem; flex: 1; }
 .service a.more { font-weight: 600; font-size: .92rem; }
 .section-title { font-size: 1.5rem; margin: 0 0 1rem; }
-@media (max-width: 768px) { .hero { padding: 2.25rem 1.5rem; } .hero h1 { font-size: 1.85rem; } .hero .logo { border-left: none; padding-left: 0; border-top: 1px solid rgba(255,255,255,.3); padding-top: 1.5rem; flex-basis: 100%; justify-content: flex-start; min-height: 0; } .hero .logo img { max-width: 220px; } }
+@media (max-width: 768px) { .hero { padding: 2.25rem 1.5rem; } .hero h1 { font-size: 1.85rem; } .brand-bar img { height: 48px; } }
 @media (max-width: 576px) { .stats { grid-template-columns: 1fr; } }
 </style>
+
+<div class="brand-bar"><img src="{{ '/assets/img/biostats-logo.png' | relative_url }}" alt="Stanford Medicine · Biostatistics Core, Division of Nephrology"></div>
 
 <section class="hero">
 <div class="text">
@@ -59,7 +62,6 @@ latest_posts:
 <p class="lead">We partner with faculty and fellows of the Division of Nephrology on the design, conduct, analysis and publication of kidney-related research.</p>
 <a class="btn-hero primary" href="{{ L.support_request_form }}">Request Support</a><a class="btn-hero ghost" href="{{ L.office_hours_signup }}">Sign up for Office Hours</a>
 </div>
-<div class="logo"><img src="{{ '/assets/img/biostats-logo.png' | relative_url }}" alt="Stanford Medicine · Biostatistics Core, Division of Nephrology"></div>
 </section>
 
 <div class="stats">
