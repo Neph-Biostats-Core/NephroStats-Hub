@@ -21,17 +21,22 @@ latest_posts:
 <style>
 /* hide the default name header on the home page; the banner replaces it */
 .post-header { display: none; }
-.hero { background: #8C1515; color: #fff; border-radius: 12px; padding: 2.75rem 2.5rem; margin: 0 0 2rem; display: flex; align-items: center; justify-content: space-between; gap: 2rem; flex-wrap: wrap; }
+.hero { position: relative; overflow: hidden; background: linear-gradient(135deg, #9b1c1c 0%, #8C1515 45%, #6a0f0f 100%); color: #fff; border-radius: 14px; padding: 3rem 2.75rem; margin: 0 0 2rem; display: flex; align-items: center; justify-content: space-between; gap: 2.5rem; flex-wrap: wrap; box-shadow: 0 10px 30px rgba(140,21,21,.25); }
+.hero::before, .hero::after { content: ""; position: absolute; border-radius: 50%; pointer-events: none; }
+.hero::before { width: 420px; height: 420px; right: -120px; top: -160px; background: radial-gradient(circle, rgba(255,255,255,.10) 0%, rgba(255,255,255,0) 70%); }
+.hero::after { width: 260px; height: 260px; left: -90px; bottom: -130px; border: 1px solid rgba(255,255,255,.12); }
+.hero > * { position: relative; z-index: 1; }
 .hero .text { flex: 1 1 380px; }
-.hero .eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: .8rem; opacity: .85; margin: 0 0 .5rem; }
-.hero h1 { color: #fff; font-size: 2.3rem; line-height: 1.15; margin: 0 0 .75rem; font-weight: 600; }
-.hero p.lead { color: #fff; opacity: .92; font-size: 1.05rem; margin: 0 0 1.5rem; max-width: 34rem; }
-.hero .logo { flex: 0 1 300px; text-align: center; }
-.hero .logo img { width: 100%; max-width: 300px; filter: brightness(0) invert(1); }
-.btn-hero { display: inline-block; padding: .65rem 1.25rem; border-radius: 6px; font-weight: 600; text-decoration: none !important; margin: 0 .6rem .6rem 0; transition: transform .15s, box-shadow .15s; }
-.btn-hero:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,.25); }
+.hero .eyebrow { display: inline-block; text-transform: uppercase; letter-spacing: .14em; font-size: .72rem; font-weight: 600; color: rgba(255,255,255,.9) !important; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.25); border-radius: 999px; padding: .3rem .8rem; margin: 0 0 1rem; }
+.hero h1 { color: #fff !important; font-size: 2.4rem; line-height: 1.12; margin: 0 0 .9rem; font-weight: 700; letter-spacing: -.01em; }
+.hero p.lead { color: rgba(255,255,255,.9) !important; font-size: 1.05rem; line-height: 1.55; margin: 0 0 1.75rem; max-width: 33rem; }
+.hero .logo { flex: 0 1 270px; display: flex; align-items: center; justify-content: center; padding-left: 2.25rem; border-left: 1px solid rgba(255,255,255,.3); min-height: 120px; }
+.hero .logo img { width: 100%; max-width: 260px; filter: brightness(0) invert(1); opacity: .95; }
+.btn-hero { display: inline-block; padding: .7rem 1.35rem; border-radius: 8px; font-weight: 600; font-size: .95rem; text-decoration: none !important; margin: 0 .6rem .6rem 0; transition: transform .15s, box-shadow .15s, background .15s; }
+.btn-hero:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,.25); }
 .btn-hero.primary { background: #fff; color: #8C1515 !important; }
-.btn-hero.ghost { border: 2px solid #fff; color: #fff !important; }
+.btn-hero.ghost { border: 1.5px solid rgba(255,255,255,.85); color: #fff !important; }
+.btn-hero.ghost:hover { background: rgba(255,255,255,.12); }
 .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 0 0 2.25rem; text-align: center; }
 .stats .stat { border: 1px solid var(--global-divider-color); border-radius: 10px; padding: 1rem .5rem; }
 .stats .num { font-size: 1.9rem; font-weight: 700; color: #8C1515; line-height: 1.1; }
@@ -43,12 +48,13 @@ latest_posts:
 .service p { font-size: .93rem; margin: 0 0 .9rem; flex: 1; }
 .service a.more { font-weight: 600; font-size: .92rem; }
 .section-title { font-size: 1.5rem; margin: 0 0 1rem; }
-@media (max-width: 576px) { .hero { padding: 2rem 1.4rem; } .hero h1 { font-size: 1.8rem; } .stats { grid-template-columns: 1fr; } }
+@media (max-width: 768px) { .hero { padding: 2.25rem 1.5rem; } .hero h1 { font-size: 1.85rem; } .hero .logo { border-left: none; padding-left: 0; border-top: 1px solid rgba(255,255,255,.3); padding-top: 1.5rem; flex-basis: 100%; justify-content: flex-start; min-height: 0; } .hero .logo img { max-width: 220px; } }
+@media (max-width: 576px) { .stats { grid-template-columns: 1fr; } }
 </style>
 
 <section class="hero">
 <div class="text">
-<p class="eyebrow">Division of Nephrology · Stanford Medicine</p>
+<p class="eyebrow">Statistical collaboration for kidney research</p>
 <h1>Stanford Nephrology Biostatistics Core</h1>
 <p class="lead">We partner with faculty and fellows of the Division of Nephrology on the design, conduct, analysis and publication of kidney-related research.</p>
 <a class="btn-hero primary" href="{{ L.support_request_form }}">Request Support</a><a class="btn-hero ghost" href="{{ L.office_hours_signup }}">Sign up for Office Hours</a>
