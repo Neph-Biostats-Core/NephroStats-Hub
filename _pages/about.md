@@ -66,7 +66,7 @@ html[data-theme="dark"] .brand-bar img { filter: brightness(0) invert(1); opacit
 
 <div class="stats">
 <div class="stat"><div class="num">{{ site.data.people.size }}</div><div class="label">biostatisticians &amp; analysts</div></div>
-<div class="stat"><div class="num">180+</div><div class="label">publications &amp; presentations since 2020</div></div>
+<div class="stat"><div class="num">190+</div><div class="label">publications &amp; presentations since 2020</div></div>
 <div class="stat"><div class="num">2×</div><div class="label">office hours every month</div></div>
 </div>
 
