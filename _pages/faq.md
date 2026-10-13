@@ -5,6 +5,7 @@ permalink: /faq/
 description: Biostatistician effort and resource allocation. Guidelines for investigators planning projects and grants with the Biostatistics Core (updated 09/22/25).
 nav: true
 nav_order: 5.5
+published: false # hidden: internal document, see Internal resources
 ---
 
 {%- assign L = site.data.links -%}

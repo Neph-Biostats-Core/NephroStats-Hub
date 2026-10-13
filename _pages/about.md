@@ -48,6 +48,11 @@ html[data-theme="dark"] .brand-bar img { filter: brightness(0) invert(1); opacit
 .service h3 { font-size: 1.15rem; margin: 0 0 .5rem; }
 .service p { font-size: .93rem; margin: 0 0 .9rem; flex: 1; }
 .service a.more { font-weight: 600; font-size: .92rem; }
+.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 1rem; margin: 0 0 2.5rem; counter-reset: step; }
+.step { border: 1px solid var(--global-divider-color); border-radius: 10px; padding: 1.1rem 1.1rem 1rem; position: relative; }
+.step .n { display: inline-flex; align-items: center; justify-content: center; width: 2rem; height: 2rem; border-radius: 50%; background: #8C1515; color: #fff; font-weight: 700; margin-bottom: .6rem; }
+.step h3 { font-size: 1.02rem; margin: 0 0 .4rem; }
+.step p { font-size: .9rem; margin: 0; line-height: 1.5; }
 .section-title { font-size: 1.5rem; margin: 0 0 1rem; }
 @media (max-width: 768px) { .hero { padding: 2.25rem 1.5rem; } .hero h1 { font-size: 1.85rem; } .brand-bar img { height: 48px; } }
 @media (max-width: 576px) { .stats { grid-template-columns: 1fr; } }
@@ -59,7 +64,7 @@ html[data-theme="dark"] .brand-bar img { filter: brightness(0) invert(1); opacit
 <div class="text">
 <p class="eyebrow">Statistical collaboration for kidney research</p>
 <h1>Stanford Nephrology Biostatistics Core</h1>
-<p class="lead">We partner with faculty and fellows of the Division of Nephrology on the design, conduct, analysis and publication of kidney-related research.</p>
+<p class="lead">Biostatisticians strengthen kidney research at every stage: clearly defined, testable objectives, efficient study designs, well-documented data, and rigorous analysis and reporting. Bringing us in early improves your chances of funding and the impact of your work.</p>
 <a class="btn-hero primary" href="{{ L.support_request_form }}">Request Support</a><a class="btn-hero ghost" href="{{ L.office_hours_signup }}">Sign up for Office Hours</a>
 </div>
 </section>
@@ -92,6 +97,15 @@ html[data-theme="dark"] .brand-bar img { filter: brightness(0) invert(1); opacit
 <a class="more" href="{{ L.kcr_schedule }}">Full schedule &rarr;</a>
 <a class="more" href="{{ L.kcr_signup }}">Sign up to present &rarr;</a>
 </div>
+</div>
+
+<h2 class="section-title">Working with us</h2>
+<div class="steps">
+<div class="step"><div class="n">1</div><h3>Engage early</h3><p>Contact us <strong>at least 8 weeks</strong> before a grant deadline. Involving a statistician from the first brainstorm increases grant success.</p></div>
+<div class="step"><div class="n">2</div><h3>Submit a request</h3><p>Use the <a href="{{ L.support_request_form }}">support request form</a> and include a draft protocol using our <a href="{{ L.protocol_template }}">template</a>.</p></div>
+<div class="step"><div class="n">3</div><h3>Agree on an analysis plan</h3><p>The whole team approves the statistical analysis plan before analysis begins, so methods and interpretation are shared.</p></div>
+<div class="step"><div class="n">4</div><h3>Budget for biostatistics</h3><p>Include biostatistician effort and related resources (e.g., software) in your grant proposals. We'll help you scope it.</p></div>
+<div class="step"><div class="n">5</div><h3>Share credit</h3><p>Biostatisticians who contribute substantially to design or analysis and to the manuscript are co-authors, per <a href="https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html">ICMJE</a> guidance.</p></div>
 </div>
 
 <p>Meet the <a href="{{ '/people/' | relative_url }}">team</a>, browse our <a href="{{ '/publications/' | relative_url }}">publications</a>, or find <a href="{{ '/resources/' | relative_url }}">resources</a>.</p>
