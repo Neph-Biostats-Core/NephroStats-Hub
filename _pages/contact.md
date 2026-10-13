@@ -13,7 +13,7 @@ nav_order: 6
 
 **Core leadership**
 
-- Maria Montez Rath, PhD, Director: [mmrath@stanford.edu](mailto:mmrath@stanford.edu)
+- Maria Emilia Montez Rath, PhD, Director: [mmrath@stanford.edu](mailto:mmrath@stanford.edu)
 - Margaret R Stedman, PhD, Associate Director of Biostatistics (Transplant): [mstedman@stanford.edu](mailto:mstedman@stanford.edu)
 
 **Website, resources and code**

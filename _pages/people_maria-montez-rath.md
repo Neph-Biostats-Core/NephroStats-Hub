@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /people/maria-montez-rath/
-title: Maria Montez Rath
+title: Maria Emilia Montez Rath
 person: maria-montez-rath
 nav: false
 ---
@@ -27,7 +27,7 @@ nav: false
 {%- for t in p.titles -%}<p class="role">{{ t }}</p>{%- endfor -%}
 <p class="links"><a href="mailto:{{ p.email }}">✉ {{ p.email }}</a>{%- if p.profile_url -%}<a href="{{ p.profile_url }}">Stanford Profile</a>{%- endif -%}{%- if p.scholar_url -%}<a href="{{ p.scholar_url }}">Google Scholar</a>{%- endif -%}</p>
 <h4>About</h4>
-<p>{%- if p.bio -%}{{ p.bio }}{%- else -%}Bio coming soon.{%- endif -%}</p>
+<div class="bio">{%- if p.bio -%}{{ p.bio | markdownify }}{%- else -%}<p>Bio coming soon.</p>{%- endif -%}</div>
 <h4>Expertise</h4>
 <ul class="tags">{%- for e in p.expertise -%}<li>{{ e }}</li>{%- endfor -%}</ul>
 </div>
