@@ -377,7 +377,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Montez-Rath, Stedman, Liu, Thomas, Yu, Huang, Parvathinathan]
-  first_name: [Maria, Maria E., M., M. E., Margaret, Margaret R., M. R., Sai, S., Jinn, I-Chun, I. C., Snow, Xue, X., Mengjiao, Gomathy, G.]
+  first_name: [Maria, Maria E., Maria E, M., M. E., M E, ME, M, Margaret, Margaret R., Margaret R, M. R., MR, Sai, S., S, Jinn, I-Chun, I. C., IC, Snow, Xue, X., X, Mengjiao, Gomathy, G., G]
 
   style: apa
   locale: en
