@@ -4,14 +4,17 @@
 # bio: a short paragraph for the profile page. profile_url / scholar_url are optional.
 
 - slug: maria-montez-rath
-  name: Maria Montez Rath, PhD
+  name: Maria Emilia Montez Rath, PhD
   group: leadership
   photo: maria-montez-rath.jpg
   titles: [Senior Research Engineer, "Director, Biostatistics Core"]
   email: mmrath@stanford.edu
   profile_url:
   scholar_url: https://scholar.google.com/citations?user=MrDd1QYAAAAJ
-  bio:
+  bio: |
+    Dr. Maria Emília de Oliveira Montez Rath is an Assistant Professor (Research) of Medicine in Nephrology and Biostatistics at Stanford, where she also serves as the Director of the Biostatistics Core for the Division of Nephrology. A data scientist with classical training in biostatistics, she leads the design and analysis of complex clinical studies to answer critical questions about kidney disease.
+
+    For more than fifteen years, she has collaborated with faculty and fellows to tackle a variety of research challenges in the field. Her work focuses on developing innovative observational methods to handle missing data, draw causal inferences, and translate findings from clinical trials into real-world applications. Dr. Montez-Rath is an expert in Target Trial Emulation (TTE), with deep experience in both the design and analysis of TTE studies to answer complex clinical questions using observational data. By bridging the methodological gaps that arise in this collaborative research, Dr. Montez-Rath's efforts aim to directly improve patients' lives and the delivery of healthcare.
   expertise:
     - Generalizability & Transportability of Clinical Trials
     - Causal Inference
