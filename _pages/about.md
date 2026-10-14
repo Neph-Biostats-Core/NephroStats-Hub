@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle:
 
-selected_papers: true # shows papers marked `selected={true}` in _bibliography/papers.bib
+selected_papers: false # set to true to show papers marked selected={true} on the home page
 social: false
 
 announcements:
